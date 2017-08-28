@@ -3,8 +3,8 @@
 
 Use the following terminal commands for adding the file templates in this repository to Xcode.
 
-Author: tmzr84
-Date: 2017-04-10
+Author: tmzr84 <br />
+Date: 2017-04-10 <br />
 Xcode-Version: 8.3.1
 
 
