@@ -8,7 +8,6 @@ DOXYGEN/*
 
 # Project specific test content
 TestContent/*
-*.ipa
 
 # OS X temporary files
 .DS_Store
