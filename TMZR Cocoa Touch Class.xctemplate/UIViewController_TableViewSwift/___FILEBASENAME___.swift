@@ -115,25 +115,19 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		super.viewWillTransition(to: size, with: coordinator)
 
-		coordinator.animate(alongsideTransition: { [unowned self] _ in
-
-		}, completion: { [unowned self] _ in
-			self.adaptUI(to: UIApplication.shared.statusBarOrientation)
-		})
+		self.adaptUI(to: size, with: coordinator)
 	}
 
-
 	/**
-	Performs user interface adaptions on orientation changes.
+	Performs adaptions of the controller to size transitions.
 
 	Parameters:
-	- orientation: Current interface orientation
+	- size: Size for which to adapt the controller
+	- coordinator: Size transition coordinator
 	*/
-	/*override*/ func adaptUI(to orientation: UIInterfaceOrientation) {
+	/*override*/ func adaptUI(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		// Only uncomment when using MZIK framework
-		// super.adaptUI(to: orientation)
-
-		// Interface adaptions
+		// super.adaptUI(to: size, with: coordinator)
 	}
 
 	// MARK: -
@@ -145,8 +139,9 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource, UITableViewDelegate {
-	// MARK: Table view data source
+// MARK: -
+// MARK: Table view data source
+extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource {
 	/**
 	Sets the number of sections for the controller's table view.
 
@@ -214,8 +209,11 @@ extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource, UITableViewDele
 
 	    return cell
 	}
+}
 
-	// MARK: Table view delegate
+// MARK: -
+// MARK: Table view delegate
+extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDelegate {
 	/**
 	<#Description#>
 

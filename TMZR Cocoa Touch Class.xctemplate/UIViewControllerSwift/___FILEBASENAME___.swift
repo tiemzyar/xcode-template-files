@@ -102,25 +102,19 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		super.viewWillTransition(to: size, with: coordinator)
 
-		coordinator.animate(alongsideTransition: { [unowned self] _ in
-
-		}, completion: { [unowned self] _ in
-			self.adaptUI(to: UIApplication.shared.statusBarOrientation)
-		})
+		self.adaptUI(to: size, with: coordinator)
 	}
 
-
 	/**
-	Performs user interface adaptions on orientation changes.
+	Performs adaptions of the controller to size transitions.
 
 	Parameters:
-	- orientation: Current interface orientation
+	- size: Size for which to adapt the controller
+	- coordinator: Size transition coordinator
 	*/
-	/*override*/ func adaptUI(to orientation: UIInterfaceOrientation) {
+	/*override*/ func adaptUI(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		// Only uncomment when using MZIK framework
-		// super.adaptUI(to: orientation)
-
-		// Interface adaptions
+		// super.adaptUI(to: size, with: coordinator)
 	}
 
 	// MARK: -
