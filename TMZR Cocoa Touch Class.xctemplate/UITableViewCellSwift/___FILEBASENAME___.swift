@@ -1,12 +1,20 @@
 //___FILEHEADER___
-//  Copyright <#Organization#> ___YEAR___. All rights reserved.
-//
 
 // MARK: Imports
 import UIKit
 
 // MARK: -
 // MARK: Implementation
+/**
+<#Cell Description#>
+
+Metadata:
+-
+Author: ___FULLUSERNAME___
+
+Revision history:
+- <#Functionality#>
+*/
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 	// MARK: Nested types
 
@@ -34,7 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         // Configure the view for the selected state
 
     }
-	
+
 
 	// MARK: -
 	// MARK: Instance methods

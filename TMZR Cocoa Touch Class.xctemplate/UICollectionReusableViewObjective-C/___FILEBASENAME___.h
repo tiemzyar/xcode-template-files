@@ -1,6 +1,4 @@
 //___FILEHEADER___
-//  Copyright <#Organization#> ___YEAR___. All rights reserved.
-//
 
 #pragma mark Imports
 ___IMPORTHEADER_cocoaTouchSubclass___
@@ -17,8 +15,6 @@ ___IMPORTHEADER_cocoaTouchSubclass___
  *	<#View Description#>
  *
  *	@author ___FULLUSERNAME___
- *	@date ___DATE___
- *	@since <#App Version#>
  *
  *	<b>Revision history</b> <br />
  *	- <#Functionality#>

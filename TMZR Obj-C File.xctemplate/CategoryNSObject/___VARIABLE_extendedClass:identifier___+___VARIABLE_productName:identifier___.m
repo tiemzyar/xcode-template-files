@@ -1,6 +1,4 @@
 //___FILEHEADER___
-//  Copyright <#Organization#> ___YEAR___. All rights reserved.
-//
 
 #pragma mark Imports
 #import "___VARIABLE_extendedClass:identifier___+___VARIABLE_productName:identifier___.h"

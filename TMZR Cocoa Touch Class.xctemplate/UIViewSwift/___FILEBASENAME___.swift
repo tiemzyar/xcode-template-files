@@ -1,12 +1,20 @@
 //___FILEHEADER___
-//  Copyright <#Organization#> ___YEAR___. All rights reserved.
-//
 
 // MARK: Imports
 import UIKit
 
 // MARK: -
 // MARK: Implementation
+/**
+<#View Description#>
+
+Metadata:
+-
+Author: ___FULLUSERNAME___
+
+Revision history:
+- <#Functionality#>
+*/
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 	// MARK: Nested types
 
@@ -36,5 +44,5 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
 	// MARK: -
 	// MARK: Instance methods
-	
+
 }

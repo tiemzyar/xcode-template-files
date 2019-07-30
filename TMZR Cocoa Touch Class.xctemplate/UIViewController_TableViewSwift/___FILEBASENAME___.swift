@@ -1,12 +1,20 @@
 //___FILEHEADER___
-//  Copyright <#Organization#> ___YEAR___. All rights reserved.
-//
 
 // MARK: Imports
 import UIKit
 
 // MARK: -
 // MARK: Implementation
+/**
+<#Controller Description#>
+
+Metadata:
+-
+Author: ___FULLUSERNAME___
+
+Revision history:
+- <#Functionality#>
+*/
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 	// MARK: Nested types
 
