@@ -1,14 +1,32 @@
-# Xcode File templates
+# Xcode File Templates
 ---
 
-Use the following terminal commands for adding the file templates in this repository to Xcode.
+Pre-formatted Xcode file templates (Swift and Objective-C), adding some structure to selected types.
 
-Author: tmzr84 <br />
-Date: 2017-09-28 <br />
-Xcode-Version: 9.0
+Author: tiemzyar <br />
+Date: 2019-07-01 <br />
+Xcode-Version: 10.2.1
 
+---
 
-#### Navigate to Xcode template directory on hard disk:
+### Available Types
+
+* Cocoa Touch Class Subclasses
+** NSObject
+** UIView
+** UIViewController
+** UIViewController containing UITableView (including DataSource and Delegate)
+** UITableViewCell
+** UICollectionViewCell
+** UICollectionReusableView
+* Unit Test Case Class (Swift or Objective-C)
+* Obj-C file
+** Category (on any class)
+** Protocol
+
+### Usage
+
+#### Navigate to the Xcode template directory in Terminal (or open a Terminal window at that directory):
 ```
 cd /Library/Developer/Xcode/Templates/File\ Templates/
 ```
@@ -18,9 +36,9 @@ cd /Library/Developer/Xcode/Templates/File\ Templates/
 sudo mkdir -p /Library/Developer/Xcode/Templates/File\ Templates/
 ```
 
-#### Clone repository (‘sudo’ might be necessary here as well)
+#### Clone repository (‘sudo’ might be necessary here as well):
 ```
-git clone https://github.com/tmzr84/xcode-template-files.git
+git clone https://github.com/tiemzyar/xcode-template-files.git
 ```
 
 #### Conclusion
