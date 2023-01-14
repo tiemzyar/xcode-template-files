@@ -5,6 +5,9 @@ import XCTest
 
 @testable import <#FrameworkName#>
 
+/**
+<#Description#>
+*/
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___ {
 	// MARK: Nested types
 
@@ -19,17 +22,23 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_testSubclass___ {
 // MARK: -
 // MARK: Setup and tear-down
 extension ___FILEBASENAMEASIDENTIFIER___ {
-	override func setUp() {
-		super.setUp()
+	override func setUpWithError() throws {
+		try super.setUpWithError()
 	}
-
-	override func tearDown() {
-		super.tearDown()
+	
+	override func tearDownWithError() throws {
+		try super.tearDownWithError()
 	}
 }
 
 // MARK: -
 // MARK: Supporting methods
+extension ___FILEBASENAMEASIDENTIFIER___ {
+	
+}
+
+// MARK: -
+// MARK: Assertion methods
 extension ___FILEBASENAMEASIDENTIFIER___ {
 	
 }
