@@ -4,8 +4,8 @@
 Pre-formatted Xcode file templates (Swift and Objective-C), adding some structure to selected types.
 
 Author: tiemzyar <br />
-Date: 2019-07-01 <br />
-Xcode-Version: 10.2.1
+Date: 2022-11-16 <br />
+Xcode-Version: 14
 
 ---
 
@@ -20,6 +20,8 @@ Xcode-Version: 10.2.1
 ** UICollectionViewCell
 ** UICollectionReusableView
 * Unit Test Case Class (Swift or Objective-C)
+* Swift file
+** Class extension
 * Obj-C file
 ** Category (on any class)
 ** Protocol
